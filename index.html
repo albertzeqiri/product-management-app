@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Management App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Product Management App</h1>
+      <form id="product-form">
+        <input
+          type="text"
+          id="product-name"
+          placeholder="Name of product"
+          required
+        />
+        <input
+          type="text"
+          id="product-category"
+          placeholder="Category"
+          required
+        />
+        <input type="number" id="product-price" placeholder="Price" required />
+        <input type="url" id="product-image" placeholder="URL of image" />
+        <button type="submit">Add Product</button>
+      </form>
+      <input type="text" id="search" placeholder="Search for product" />
+      <div id="product-list"></div>
+      <a href="api.html" class="api-link">Show results of API</a>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
