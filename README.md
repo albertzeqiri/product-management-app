@@ -1,6 +1,6 @@
 # Product Management App
 
-A simple web application to manage products, allowing users to add, view, delete, and search products. The application utilizes **localStorage** to store product information, ensuring that data persists even after refreshing the page. This app is perfect for beginners to learn the basics of DOM manipulation, form handling, and localStorage in JavaScript.
+A simple web application to manage products, allowing users to add, view, delete, and search products. The application utilizes **localStorage** to store product information, ensuring that data persists even after refreshing the page.
 
 ## Features:
 - **Add Product**: Allows users to input product name, category, price, and an optional image URL. The product details are stored in localStorage.
