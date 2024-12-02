@@ -14,7 +14,7 @@ A simple web application to manage products, allowing users to add, view, delete
 - **CSS**: Basic styling for the layout, forms, and product display.
 - **JavaScript**: Used to handle form submission, localStorage operations, product rendering, and filtering.
 
-  ## Setup
+## Setup
 
 1. Clone the repository to your local machine.
 2. Open `index.html` in a browser to view the website.
